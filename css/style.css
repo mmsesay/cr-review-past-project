@@ -3,24 +3,22 @@
   overscroll-behavior: none;
 }
 
-#header-img{
+#header-img {
   width: 300px;
   height: 40px;
   margin: 10px 0 0 20px;
-  
 }
 
-#header{
+#header {
   width: 100%;
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: between;
   overflow: hidden;
-  background-color: #E8E58E;
+  background-color: #e8e58e;
 }
 
-nav{
+nav {
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -30,7 +28,7 @@ nav{
   margin-right: 50px;
 }
 
-#nav-bar ul li{
+#nav-bar ul li {
   color: black;
   list-style-type: none;
   float: left;
@@ -50,6 +48,11 @@ a {
   margin-right: auto;
   display: block;
   padding: 10px;
+}
+
+.desc > h2 {
+  color: #7a2ff4;
+  font-size: 30px;
 }
 
 #form-section h2 {
@@ -74,12 +77,12 @@ a {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
-  background-color: #30D3E5;
+  background-color: #30d3e5;
   border: 0;
 }
 
-#how-it-works{
-  margin: 80px 400px;  
+#how-it-works {
+  margin: 80px 400px;
 }
 
 #video {
@@ -88,7 +91,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-  
+
 @media (max-width: 650px) {
   nav > ul {
     flex-direction: column;
@@ -96,17 +99,12 @@ a {
 }
 
 #features {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
   border-radius: 20px;
-}
-
-.desc > h2 {
-  color: #7A2FF4;
-  font-size: 30px;
 }
 
 .desc > p {
@@ -129,14 +127,14 @@ a {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  background-color: #CDA0A0;
+  background-color: #cda0a0;
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 20px;
 }
 
 .product {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   border: solid 1px;
   height: 250px;
   width: 100%;
@@ -149,10 +147,10 @@ a {
 .level {
   font-size: 30px;
   font-weight: bolder;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
-ol{
+ol {
   height: 40px;
   margin-bottom: 50px;
   color: black;
@@ -166,9 +164,8 @@ ol{
   height: 50px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #30D3E5;
+  background-color: #30d3e5;
   color: #fff;
   font-size: 18px;
   border: 0;
 }
-  
